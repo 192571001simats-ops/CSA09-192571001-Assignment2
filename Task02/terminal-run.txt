@@ -1,0 +1,47 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Playlists
+MEASURED ArrayList_append size=100 trials=5 setup outside timing
+MEASURED ArrayList_front size=100 trials=5 setup outside timing
+MEASURED ArrayList_middle_index size=100 trials=5 setup outside timing
+MEASURED ArrayList_middle_iterator size=100 trials=5 setup outside timing
+MEASURED ArrayList_get size=100 trials=5 setup outside timing
+MEASURED ArrayList_iterate size=100 trials=5 setup outside timing
+MEASURED LinkedList_append size=100 trials=5 setup outside timing
+MEASURED LinkedList_front size=100 trials=5 setup outside timing
+MEASURED LinkedList_middle_index size=100 trials=5 setup outside timing
+MEASURED LinkedList_middle_iterator size=100 trials=5 setup outside timing
+MEASURED LinkedList_get size=100 trials=5 setup outside timing
+MEASURED LinkedList_iterate size=100 trials=5 setup outside timing
+MEASURED ArrayList_append size=1000 trials=5 setup outside timing
+MEASURED ArrayList_front size=1000 trials=5 setup outside timing
+MEASURED ArrayList_middle_index size=1000 trials=5 setup outside timing
+MEASURED ArrayList_middle_iterator size=1000 trials=5 setup outside timing
+MEASURED ArrayList_get size=1000 trials=5 setup outside timing
+MEASURED ArrayList_iterate size=1000 trials=5 setup outside timing
+MEASURED LinkedList_append size=1000 trials=5 setup outside timing
+MEASURED LinkedList_front size=1000 trials=5 setup outside timing
+MEASURED LinkedList_middle_index size=1000 trials=5 setup outside timing
+MEASURED LinkedList_middle_iterator size=1000 trials=5 setup outside timing
+MEASURED LinkedList_get size=1000 trials=5 setup outside timing
+MEASURED LinkedList_iterate size=1000 trials=5 setup outside timing
+MEASURED ArrayList_append size=10000 trials=5 setup outside timing
+MEASURED ArrayList_front size=10000 trials=5 setup outside timing
+MEASURED ArrayList_middle_index size=10000 trials=5 setup outside timing
+MEASURED ArrayList_middle_iterator size=10000 trials=5 setup outside timing
+MEASURED ArrayList_get size=10000 trials=5 setup outside timing
+MEASURED ArrayList_iterate size=10000 trials=5 setup outside timing
+MEASURED LinkedList_append size=10000 trials=5 setup outside timing
+MEASURED LinkedList_front size=10000 trials=5 setup outside timing
+MEASURED LinkedList_middle_index size=10000 trials=5 setup outside timing
+MEASURED LinkedList_middle_iterator size=10000 trials=5 setup outside timing
+MEASURED LinkedList_get size=10000 trials=5 setup outside timing
+MEASURED LinkedList_iterate size=10000 trials=5 setup outside timing
+MEASURED ArrayDeque_two_ends size=100 trials=5
+MEASURED ArrayDeque_two_ends size=1000 trials=5
+MEASURED ArrayDeque_two_ends size=10000 trials=5
+PASS Up Next is a deque
+List population is outside timing; iterator case includes one traversal to the middle followed by 200 edits
+$ run_status=0
+Program exit code: 0
