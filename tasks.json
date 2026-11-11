@@ -1,0 +1,26 @@
+{
+  "Task01": [
+    "TicketText"
+  ],
+  "Task02": [
+    "Playlists"
+  ],
+  "Task03": [
+    "Attendance",
+    "EqualityInvestigation"
+  ],
+  "Task04": [
+    "PharmacyMaps"
+  ],
+  "Task05": [
+    "LeaderboardDemo",
+    "ComparatorValidation"
+  ],
+  "Task06": [
+    "Triage",
+    "QueueInvestigation"
+  ],
+  "Task07": [
+    "InventoryRedesign"
+  ]
+}
