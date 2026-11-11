@@ -1,0 +1,27 @@
+$ java TicketText
+PASS same ticket content mode 0 fields 5
+MEASURED String_plus size=5 trials=5
+PASS same ticket content mode 1 fields 5
+MEASURED StringBuilder size=5 trials=5
+PASS same ticket content mode 2 fields 5
+MEASURED StringBuffer size=5 trials=5
+WORKLOAD tickets=1 fields=5 estimated loop String results=5
+PASS same ticket content mode 0 fields 50
+MEASURED String_plus size=500000 trials=5
+PASS same ticket content mode 1 fields 50
+MEASURED StringBuilder size=500000 trials=5
+PASS same ticket content mode 2 fields 50
+MEASURED StringBuffer size=500000 trials=5
+WORKLOAD tickets=10000 fields=50 estimated loop String results=500000
+PASS same ticket content mode 0 fields 500
+MEASURED String_plus size=50000 trials=5
+PASS same ticket content mode 1 fields 500
+MEASURED StringBuilder size=50000 trials=5
+PASS same ticket content mode 2 fields 500
+MEASURED StringBuffer size=50000 trials=5
+WORKLOAD tickets=100 fields=500 estimated loop String results=50000
+PASS shared log retains complete records under compound-operation lock
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
