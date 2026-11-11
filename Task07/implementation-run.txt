@@ -1,0 +1,19 @@
+$ java InventoryRedesign
+PASS both cached orders match original size 100
+MEASURED original_100_reports size=100 trials=5
+MEASURED cached_100_reports size=100 trials=5
+PASS stock update invalidates cached objects
+PASS deletion invalidates both report orders
+PASS both cached orders match original size 1000
+MEASURED original_100_reports size=1000 trials=5
+MEASURED cached_100_reports size=1000 trials=5
+PASS stock update invalidates cached objects
+PASS deletion invalidates both report orders
+PASS both cached orders match original size 10000
+MEASURED original_100_reports size=10000 trials=5
+MEASURED cached_100_reports size=10000 trials=5
+PASS stock update invalidates cached objects
+PASS deletion invalidates both report orders
+Prediction: remove repeated sorting and list allocation for unchanged inventory; traversal and text output remain O(n)
+
+Exit code: 0

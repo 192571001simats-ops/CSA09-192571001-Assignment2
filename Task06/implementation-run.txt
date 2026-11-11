@@ -1,0 +1,4 @@
+$ java Triage
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+Exit code: 0

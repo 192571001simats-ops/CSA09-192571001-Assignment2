@@ -1,0 +1,4 @@
+$ java Attendance
+Unique students: 2
+
+Exit code: 0
