@@ -1,0 +1,46 @@
+$ java Playlists
+MEASURED ArrayList_append size=100 trials=5
+MEASURED ArrayList_front size=100 trials=5
+MEASURED ArrayList_middle_index size=100 trials=5
+MEASURED ArrayList_middle_iterator size=100 trials=5
+MEASURED ArrayList_get size=100 trials=5
+MEASURED ArrayList_iterate size=100 trials=5
+MEASURED LinkedList_append size=100 trials=5
+MEASURED LinkedList_front size=100 trials=5
+MEASURED LinkedList_middle_index size=100 trials=5
+MEASURED LinkedList_middle_iterator size=100 trials=5
+MEASURED LinkedList_get size=100 trials=5
+MEASURED LinkedList_iterate size=100 trials=5
+MEASURED ArrayList_append size=1000 trials=5
+MEASURED ArrayList_front size=1000 trials=5
+MEASURED ArrayList_middle_index size=1000 trials=5
+MEASURED ArrayList_middle_iterator size=1000 trials=5
+MEASURED ArrayList_get size=1000 trials=5
+MEASURED ArrayList_iterate size=1000 trials=5
+MEASURED LinkedList_append size=1000 trials=5
+MEASURED LinkedList_front size=1000 trials=5
+MEASURED LinkedList_middle_index size=1000 trials=5
+MEASURED LinkedList_middle_iterator size=1000 trials=5
+MEASURED LinkedList_get size=1000 trials=5
+MEASURED LinkedList_iterate size=1000 trials=5
+MEASURED ArrayList_append size=10000 trials=5
+MEASURED ArrayList_front size=10000 trials=5
+MEASURED ArrayList_middle_index size=10000 trials=5
+MEASURED ArrayList_middle_iterator size=10000 trials=5
+MEASURED ArrayList_get size=10000 trials=5
+MEASURED ArrayList_iterate size=10000 trials=5
+MEASURED LinkedList_append size=10000 trials=5
+MEASURED LinkedList_front size=10000 trials=5
+MEASURED LinkedList_middle_index size=10000 trials=5
+MEASURED LinkedList_middle_iterator size=10000 trials=5
+MEASURED LinkedList_get size=10000 trials=5
+MEASURED LinkedList_iterate size=10000 trials=5
+MEASURED ArrayDeque_two_ends size=100 trials=5
+MEASURED ArrayDeque_two_ends size=1000 trials=5
+MEASURED ArrayDeque_two_ends size=10000 trials=5
+PASS Up Next is a deque
+List timings include identical population cost; iterator case separates traversal from repeated edits conceptually
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
