@@ -1,0 +1,4 @@
+case,size,trials,mean_ms,median_ms,min_ms,max_ms,stdev_ms
+priority_admit_and_serve,100,5,0.366957,0.316831,0.298215,0.491158,0.082637
+priority_admit_and_serve,5000,5,2.912282,2.956743,2.388403,3.460161,0.402579
+priority_admit_and_serve,50000,5,19.242106,16.054661,15.646395,27.650943,5.250309

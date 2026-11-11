@@ -1,0 +1,16 @@
+case,size,trial,nanoseconds,heap_delta_bytes
+priority_admit_and_serve,100,1,491158,0
+priority_admit_and_serve,100,2,412443,0
+priority_admit_and_serve,100,3,298215,0
+priority_admit_and_serve,100,4,316140,0
+priority_admit_and_serve,100,5,316831,0
+priority_admit_and_serve,5000,1,3064247,497968
+priority_admit_and_serve,5000,2,3460161,550624
+priority_admit_and_serve,5000,3,2956743,482384
+priority_admit_and_serve,5000,4,2691855,566192
+priority_admit_and_serve,5000,5,2388403,482384
+priority_admit_and_serve,50000,1,21181000,5242880
+priority_admit_and_serve,50000,2,27650943,-16151296
+priority_admit_and_serve,50000,3,16054661,5242864
+priority_admit_and_serve,50000,4,15646395,5242880
+priority_admit_and_serve,50000,5,15677533,5242880

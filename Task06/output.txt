@@ -1,0 +1,19 @@
+$ java Triage
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java QueueInvestigation
+PASS eight-patient hand verified order
+Order: Meena Kumar Lata Bavi Ravi John Thanu Asha
+Snapshot aging order: Meena Kumar Asha Lata Bavi Ravi John Thanu 
+MEASURED priority_admit_and_serve size=100 trials=5
+MEASURED priority_admit_and_serve size=5000 trials=5
+MEASURED priority_admit_and_serve size=50000 trials=5
+Aging uses an immutable time snapshot and rebuild; never a comparator that changes inside a live heap
+Continuous critical arrivals still preclude a finite waiting guarantee for noncritical cases
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
