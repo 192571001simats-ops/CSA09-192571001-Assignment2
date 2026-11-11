@@ -1,0 +1,16 @@
+$ java Attendance
+Unique students: 2
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java EqualityInvestigation
+Same reference predicted=1 observed=1
+Distinct equal instances identity hashes: observed=2
+After mutation contains changed object=false
+PASS identity test and corrected equality test
+Without hashCode, Identity-hash collisions are possible; duplicate exposure is an observation, not a mathematical guarantee
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
