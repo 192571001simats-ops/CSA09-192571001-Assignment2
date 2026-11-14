@@ -1,0 +1,40 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m PharmacyMaps
+MEASURED HashMap_100000_lookups size=100 trials=5
+MEASURED HashMap_code_report size=100 trials=5
+MEASURED HashMap_arrival_report size=100 trials=5
+MEASURED TreeMap_100000_lookups size=100 trials=5
+MEASURED TreeMap_code_report size=100 trials=5
+MEASURED TreeMap_arrival_report size=100 trials=5
+PASS TreeMap both report orders identical
+MEASURED LinkedHashMap_100000_lookups size=100 trials=5
+MEASURED LinkedHashMap_code_report size=100 trials=5
+MEASURED LinkedHashMap_arrival_report size=100 trials=5
+PASS LinkedHashMap both report orders identical
+MEASURED HashMap_100000_lookups size=1000 trials=5
+MEASURED HashMap_code_report size=1000 trials=5
+MEASURED HashMap_arrival_report size=1000 trials=5
+MEASURED TreeMap_100000_lookups size=1000 trials=5
+MEASURED TreeMap_code_report size=1000 trials=5
+MEASURED TreeMap_arrival_report size=1000 trials=5
+PASS TreeMap both report orders identical
+MEASURED LinkedHashMap_100000_lookups size=1000 trials=5
+MEASURED LinkedHashMap_code_report size=1000 trials=5
+MEASURED LinkedHashMap_arrival_report size=1000 trials=5
+PASS LinkedHashMap both report orders identical
+MEASURED HashMap_100000_lookups size=10000 trials=5
+MEASURED HashMap_code_report size=10000 trials=5
+MEASURED HashMap_arrival_report size=10000 trials=5
+MEASURED TreeMap_100000_lookups size=10000 trials=5
+MEASURED TreeMap_code_report size=10000 trials=5
+MEASURED TreeMap_arrival_report size=10000 trials=5
+PASS TreeMap both report orders identical
+MEASURED LinkedHashMap_100000_lookups size=10000 trials=5
+MEASURED LinkedHashMap_code_report size=10000 trials=5
+MEASURED LinkedHashMap_arrival_report size=10000 trials=5
+PASS LinkedHashMap both report orders identical
+Acceptance target: average map lookup under 100 microseconds; report I/O is outside in-memory benchmark
+$ run_status=0
+Program exit code: 0

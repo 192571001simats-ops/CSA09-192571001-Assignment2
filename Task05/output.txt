@@ -1,0 +1,50 @@
+$ java LeaderboardDemo
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java ComparatorValidation
+PASS antisymmetry 0
+PASS antisymmetry 1
+PASS antisymmetry 2
+PASS antisymmetry 3
+PASS antisymmetry 4
+PASS antisymmetry 5
+PASS antisymmetry 6
+PASS antisymmetry 7
+PASS antisymmetry 8
+PASS antisymmetry 9
+PASS antisymmetry 10
+PASS antisymmetry 11
+PASS antisymmetry 12
+PASS antisymmetry 13
+PASS antisymmetry 14
+PASS antisymmetry 15
+PASS antisymmetry 16
+PASS antisymmetry 17
+PASS antisymmetry 18
+PASS antisymmetry 19
+PASS antisymmetry 20
+PASS antisymmetry 21
+PASS antisymmetry 22
+PASS antisymmetry 23
+PASS antisymmetry 24
+PASS antisymmetry 25
+PASS antisymmetry 26
+PASS antisymmetry 27
+PASS antisymmetry 28
+PASS antisymmetry 29
+PASS antisymmetry 30
+PASS antisymmetry 31
+PASS antisymmetry 32
+PASS antisymmetry 33
+PASS antisymmetry 34
+PASS antisymmetry 35
+Overflow comparator says MAX before MIN=false
+PASS Integer.compare avoids subtraction overflow
+PASS ranking copy preserves insertion list
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
